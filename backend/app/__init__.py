@@ -5,7 +5,7 @@ from flask import Flask, request
 from flask_cors import CORS
 
 from app.config import config
-from app.kernel import all_exception_handler
+from app.api.kernel import all_exception_handler
 
 
 class RequestFormatter(logging.Formatter):
@@ -62,6 +62,12 @@ def create_app(test_config=None):
 
     root = logging.getLogger("core")
     root.addHandler(strm)
+
+    # import and register blueprints
+    from app.api import routes
+
+    # why blueprints http://flask.pocoo.org/docs/1.0/blueprints/
+    app.register_blueprint(routes.routes)
 
     # register error Handler
     app.register_error_handler(Exception, all_exception_handler)
