@@ -16,11 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
-from places.api.viewsets import PlaceViewSet
-from facilities.api.viewsets import FacilityViewSet
-from addresses.api.viewsets import AddressViewSet
-from comments.api.viewsets import CommentViewSet
-from reviews.api.viewsets import ReviewViewSet
+
+from apps.places.api.viewsets import PlaceViewSet
+from apps.facilities.api.viewsets import FacilityViewSet
+from apps.addresses.api.viewsets import AddressViewSet
+from apps.comments.api.viewsets import CommentViewSet
+from apps.reviews.api.viewsets import ReviewViewSet
 
 router = routers.DefaultRouter()
 

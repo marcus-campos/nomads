@@ -1,5 +1,5 @@
 from rest_framework import viewsets
-from facilities.models import Facility
+from apps.facilities.models import Facility
 from .serializers import FacilitySerializer
 
 

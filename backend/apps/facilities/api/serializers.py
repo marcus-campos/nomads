@@ -1,5 +1,5 @@
 from rest_framework.serializers import ModelSerializer
-from facilities.models import Facility
+from apps.facilities.models import Facility
 
 
 class FacilitySerializer(ModelSerializer):

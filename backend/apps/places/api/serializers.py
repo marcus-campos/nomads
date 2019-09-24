@@ -1,5 +1,5 @@
 from rest_framework.serializers import ModelSerializer
-from places.models import Place
+from apps.places.models import Place
 
 
 class PlaceSerializer(ModelSerializer):

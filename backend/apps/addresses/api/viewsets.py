@@ -1,5 +1,5 @@
 from rest_framework import viewsets
-from addresses.models import Address
+from apps.addresses.models import Address
 from .serializers import AddressSerializer
 
 

@@ -1,5 +1,5 @@
 from rest_framework import viewsets
-from places.models import Place
+from apps.places.models import Place
 from .serializers import PlaceSerializer
 
 

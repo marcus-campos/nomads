@@ -1,9 +1,9 @@
 import uuid
 from django.db import models
-from facilities.models import Facility
-from comments.models import Comment
-from reviews.models import Review
-from addresses.models import Address
+from apps.facilities.models import Facility
+from apps.comments.models import Comment
+from apps.reviews.models import Review
+from apps.addresses.models import Address
 
 # Create your models here.
 
