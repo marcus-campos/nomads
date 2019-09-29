@@ -1,0 +1,214 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "image": {
+        "src": "https://d1e676vce0x2at.cloudfront.net/uploads/post/image/10821/main_capa_-_Henrique_Queiroga.jpeg",
+        "ratio": 0.834
+      },
+      "score": 4,
+      "name": "Espaço Sou BH",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+      "phone": "(31) 3889-5047",
+      "email": "coworking@soubh.com.br",
+      "website": "https://www.soubh.com.br/espaco-soubh",
+      "address": {
+        "street": "Av. do Contorno",
+        "number": "6061",
+        "neighborhood": "Funcionários",
+        "zipcode": "30310-017",
+        "city": "Belo Horizonte",
+        "state": "Minas Gerais",
+        "country": "Brasil"
+      },
+      "opening_hours": {
+        "sunday": {
+          "open_at": "4pm",
+          "closed_at": "8pm"
+        },
+        "monday": {
+          "open_at": "10am",
+          "closed_at": "10pm"
+        },
+        "tuesday": {
+          "open_at": "10am",
+          "closed_at": "10pm"
+        },
+        "wednesday": {
+          "open_at": "10am",
+          "closed_at": "10pm"
+        },
+        "thursday": {
+          "open_at": "10am",
+          "closed_at": "10pm"
+        },
+        "friday": {
+          "open_at": "10am",
+          "closed_at": "10pm"
+        },
+        "saturday": {
+          "open_at": "10am",
+          "closed_at": "10pm"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "image": {
+        "src": "https://d1e676vce0x2at.cloudfront.net/uploads/post/image/10821/main_capa_-_Henrique_Queiroga.jpeg",
+        "ratio": 0.834
+      },
+      "score": 5,
+      "name": "WeWork",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+      "phone": "(31) 3889-5047",
+      "email": "coworking@soubh.com.br",
+      "website": "https://www.soubh.com.br/espaco-soubh",
+      "address": {
+        "street": "Av. do Contorno",
+        "number": "6061",
+        "neighborhood": "Funcionários",
+        "zipcode": "30310-017",
+        "city": "Belo Horizonte",
+        "state": "Minas Gerais",
+        "country": "Brasil"
+      },
+      "opening_hours": {
+        "sunday": {
+          "open_at": "4pm",
+          "closed_at": "8pm"
+        },
+        "monday": {
+          "open_at": "10am",
+          "closed_at": "10pm"
+        },
+        "tuesday": {
+          "open_at": "10am",
+          "closed_at": "10pm"
+        },
+        "wednesday": {
+          "open_at": "10am",
+          "closed_at": "10pm"
+        },
+        "thursday": {
+          "open_at": "10am",
+          "closed_at": "10pm"
+        },
+        "friday": {
+          "open_at": "10am",
+          "closed_at": "10pm"
+        },
+        "saturday": {
+          "open_at": "10am",
+          "closed_at": "10pm"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "image": {
+        "src": "https://d1e676vce0x2at.cloudfront.net/uploads/post/image/10821/main_capa_-_Henrique_Queiroga.jpeg",
+        "ratio": 0.834
+      },
+      "score": 2,
+      "name": "Espaço do Miguel",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+      "phone": "(31) 3889-5047",
+      "email": "coworking@soubh.com.br",
+      "website": "https://www.soubh.com.br/espaco-soubh",
+      "address": {
+        "street": "Av. do Contorno",
+        "number": "6061",
+        "neighborhood": "Funcionários",
+        "zipcode": "30310-017",
+        "city": "Belo Horizonte",
+        "state": "Minas Gerais",
+        "country": "Brasil"
+      },
+      "opening_hours": {
+        "sunday": {
+          "open_at": "4pm",
+          "closed_at": "8pm"
+        },
+        "monday": {
+          "open_at": "10am",
+          "closed_at": "10pm"
+        },
+        "tuesday": {
+          "open_at": "10am",
+          "closed_at": "10pm"
+        },
+        "wednesday": {
+          "open_at": "10am",
+          "closed_at": "10pm"
+        },
+        "thursday": {
+          "open_at": "10am",
+          "closed_at": "10pm"
+        },
+        "friday": {
+          "open_at": "10am",
+          "closed_at": "10pm"
+        },
+        "saturday": {
+          "open_at": "10am",
+          "closed_at": "10pm"
+        }
+      }
+    }
+  ],
+  "facilities": [
+    {
+      "id": 1,
+      "name": "Wi-Fi"
+    },
+    {
+      "id": 2,
+      "name": "Localização"
+    },
+    {
+      "id": 3,
+      "name": "Qualidade sinal de telefone"
+    },
+    {
+      "id": 4,
+      "name": "Atendimento"
+    },
+    {
+      "id": 5,
+      "name": "Conforto"
+    }
+  ],
+  "placesFacilities": [
+    {
+      "id": 1,
+      "facilitieId": "1",
+      "placeId": "1",
+      "rate": "3"
+    },
+    {
+      "id": 2,
+      "facilitieId": "2",
+      "placeId": "1",
+      "rate": "5"
+    },
+    {
+      "id": 3,
+      "facilitieId": "3",
+      "placeId": "1",
+      "rate": "5"
+    },
+    {
+      "id": 4,
+      "facilitieId": "4",
+      "placeId": "1",
+      "rate": "3"
+    },
+    {
+      "id": 5,
+      "facilitieId": "5",
+      "placeId": "1",
+      "rate": "2"
+    }
+  ]
+}
