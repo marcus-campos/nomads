@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { FlatList, Dimensions } from "react-native";
+import { FlatList, Dimensions, TouchableOpacity } from "react-native";
+import { Rating } from "react-native-ratings";
 
-import { Container, Place, Title } from "./styles";
+import { Container, Place, Title, Address } from "./styles";
 
-const Main = () => {
+const Main = props => {
   const [places, setPlaces] = useState([]);
 
   useEffect(() => {
@@ -15,6 +16,10 @@ const Main = () => {
     loadPlaces();
   }, []);
 
+  const handleClick = item => {
+    return props.navigation.navigate("Detail", { item });
+  };
+
   return (
     <Container>
       <FlatList
@@ -22,9 +27,21 @@ const Main = () => {
         data={places}
         keyExtractor={place => String(place.id)}
         renderItem={({ item }) => (
-          <Place width={Dimensions.get("window").width}>
-            <Title>{item.name}</Title>
-          </Place>
+          <TouchableOpacity onPress={() => handleClick(item)}>
+            <Place width={Dimensions.get("window").width}>
+              <Title>{item.name}</Title>
+              <Rating
+                type="star"
+                readonly={true}
+                ratingCount={5}
+                imageSize={20}
+                startingValue={item.score}
+              />
+              <Address>
+                {item.address.city} - {item.address.state} . {item.phone}
+              </Address>
+            </Place>
+          </TouchableOpacity>
         )}
       />
     </Container>
